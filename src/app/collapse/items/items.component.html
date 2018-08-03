@@ -1,0 +1,14 @@
+<div>
+  <div *ngFor="let item of tabList">
+      <p (click)=changeCollapse(tab)>{{item.title}}</p>
+   <div #tab >
+    <div>
+        <app-item>
+            <ul>
+              <li *ngFor="let li of item.list">{{li}}</li>
+            </ul>
+          </app-item>
+    </div>
+   </div>
+  </div>
+</div>

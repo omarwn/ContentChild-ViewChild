@@ -1,0 +1,8 @@
+<h2>@ContentChildren</h2>
+<app-tabs>
+    <app-tab *ngFor="let tab of tabList" [title]="tab.title" [isVisibale]="tab.v">
+      <ul *ngFor="let li of tab.list">
+        <li>{{li}}</li>
+      </ul>
+    </app-tab>
+</app-tabs>

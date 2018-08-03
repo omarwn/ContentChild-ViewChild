@@ -1,0 +1,6 @@
+<div class='tab-href' >
+   <div *ngFor="let tab of tabs" (click)="toggleV(tab)" [ngClass]="{'isTab':!tab.isVisibale}">
+      {{tab.title}}
+   </div>
+</div>
+<ng-content></ng-content>

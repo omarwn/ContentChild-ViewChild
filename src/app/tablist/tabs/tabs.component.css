@@ -1,0 +1,18 @@
+.tab-href{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-bottom: 30px
+}
+
+.tab-href>div{
+    min-width: 120px;
+    text-align: center;
+    margin: 5px;
+    background: lightblue;
+    /* border: 0.5px solid lightslategray; */
+}
+.isTab{
+    border-bottom: 2px solid rgb(2, 9, 12);
+    box-shadow: 2px 2px 1px rgb(56, 63, 70)
+}

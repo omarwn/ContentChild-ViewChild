@@ -1,0 +1,9 @@
+p{
+    width: 100%;
+    background: lightgray;
+    padding: 10px;
+    border-radius: 5px
+}
+.isCollapse{
+    border-bottom: 4px black;
+}
